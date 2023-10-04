@@ -8,7 +8,7 @@
 <body>
     <h1>Exemplo PHP</h1>
     <?php 
-        date_default_timezone_set("America/Sao_Paulo"); //Configura a timezine para Brasileira
+        date_default_timezone_set("America/Sao_Paulo"); //Configura a timezone para Brasileira
         echo "Hoje é dia ".date("d/M/Y")."</p>";
         echo "e a hora atual é ".date("G:i:s");
     ?>
