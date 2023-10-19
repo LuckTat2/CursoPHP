@@ -21,4 +21,8 @@
 
     echo pi(); //Retorna o valor de pi
     echo M_PI; //Retorna o valor de pi
+
+    $valor2 = "235.33333333333333";
+    $result = number_format($valor2, 2); //Formata o número com 2 casas decimais nesse caso
+    echo $result; // 235.33
 ?>
